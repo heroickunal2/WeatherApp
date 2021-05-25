@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DefaultTextStyle">
+        <item name="font">@font/airbnb_cereal_light</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextStyle54White" parent="DefaultTextStyle">
+        <item name="android:textSize">54sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextStyle45White" parent="DefaultTextStyle">
+        <item name="android:textSize">45sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextStyle35White" parent="DefaultTextStyle">
+        <item name="android:textSize">35sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextStyle24White" parent="DefaultTextStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextStyle20" parent="DefaultTextStyle">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextStyle16White" parent="DefaultTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextStyle16" parent="DefaultTextStyle">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextStyle12" parent="DefaultTextStyle">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="SimpleButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="strokeWidth">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="rippleColor">@color/orange</item>
+    </style>
+
+    <style name="ButtonWithIcon" parent="SimpleButtonStyle">
+        <item name="android:gravity">left</item>
+        <item name="background">@color/transparent</item>
+        <item name="icon">@drawable/ic_baseline_add_24</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8sp</item>
+    </style>
+
+    <!-- Material Button design widget styles -->
+    <style name="PrimaryButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">false</item>
+
+    </style>
+
+    <!--Outlined Text Style-->
+    <style name="HintTextStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextColor">@color/orange</item>
+        <item name="android:textColorHint">@color/white</item>
+    </style>
+
+
+
+</resources>
